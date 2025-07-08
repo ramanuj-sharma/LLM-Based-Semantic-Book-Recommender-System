@@ -1,6 +1,6 @@
-# Build a Semantic Book Recommender with LLMs – Full Course
+# Build a Semantic Book Recommender with LLMs
 
-This repo contains all of the code to complete the freeCodeCamp course, "Build a Semantic Book Recommender with LLMs – Full Course". There are five components to this tutorial:
+There are five components to this project:
 * Text data cleaning (code in the notebook `data-exploration.ipynb`)
 * Semantic (vector) search and how to build a vector database (code in the notebook `vector-search.ipynb`). This allows users to find the most similar books to a natural language query (e.g., "a book about a person seeking revenge").
 * Doing text classification using zero-shot classification in LLMs (code in the notebook `text-classification.ipynb`). This allows us to classify the books as "fiction" or "non-fiction", creating a facet that users can filter the books on. 
@@ -23,7 +23,7 @@ This project was initially created in Python 3.11. In order to run the project, 
 
 A requirements.txt file containing all the project dependencies is provided as part of this repo.
 
-In order to create your vector database, you'll need to create a .env file in your root directory containing your OpenAI API key. Instructions on how to do this are part of the tutorial.
+In order to create your vector database, you'll need to create a .env file in your root directory containing your OpenAI API key.
 
 The data for this project can be downloaded from Kaggle. Instructions on how to do this are also in the repo.
 
